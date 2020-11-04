@@ -4,4 +4,45 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Locations\Home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\FarmFields.png" />
+    <Resource Include="Images\Locations\Farmhouse.png" />
+    <Resource Include="Images\Locations\HerbalistsGarden.png" />
+    <Resource Include="Images\Locations\HerbalistsHut.png" />
+    <Resource Include="Images\Locations\Home.png" />
+    <Resource Include="Images\Locations\SpiderForest.png" />
+    <Resource Include="Images\Locations\TownGate.png" />
+    <Resource Include="Images\Locations\TownSquare.png" />
+    <Resource Include="Images\Locations\Trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\Locations\SpiderForest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+
 </Project>
