@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Engine.Models;
+using Engine.Properties;
 
 namespace Engine.ViewModels
 {
@@ -24,10 +25,7 @@ namespace Engine.ViewModels
             CurrentLocation.XCoordinate = 0;
             CurrentLocation.YCoordinate = -1;
             CurrentLocation.Description = "This is your house";
-            //CurrentLocation.ImageName = "Engine/Images/Locations/SpiderForest.png";
-            CurrentLocation.ImageName = "/Engine;component/Images/Locations/SpiderForest.png";
-            // the following does work but is ugly
-            //CurrentLocation.ImageName = "C:/Users/nanni/source/repos/SOSCSRPG/Engine/Images/Locations/SpiderForest.png";
+            CurrentLocation.SourceImage = Resources.Home;
         }
     }
 }

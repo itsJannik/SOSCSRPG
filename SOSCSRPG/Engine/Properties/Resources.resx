@@ -118,6 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FarmFields" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FarmFields.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Farmhouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farmhouse.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HerbalistsGarden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HerbalistsGarden.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HerbalistsHut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HerbalistsHut.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpiderForest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpiderForest.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TownGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TownGate.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TownSquare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TownSquare.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Trader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Trader.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
